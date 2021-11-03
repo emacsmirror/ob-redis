@@ -36,17 +36,17 @@ This package is referenced from [[https://github.com/krisajenkins/ob-mongo][ob-m
 
 ** example
 
-#+BEGIN_EXAMPLE
-#+BEGIN\under{}SRC redis db: 127.0.0.1:6379
+#+begin_example
+,#+begin_src redis db: 127.0.0.1:6379
 SET myname "stardiviner"
 GET myname
-#+END\under{}SRC
+,#+end_src
 
-#+RESULTS:
+,#+RESULTS:
 : 127.0.0.1:6379> OK
 : 127.0.0.1:6379> stardiviner
 : 127.0.0.1:6379> 
-#+END_EXAMPLE
+#+end_example
 
 ** options
 
