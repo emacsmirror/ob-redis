@@ -14,7 +14,6 @@
 ;; Execute Redis queries within org-mode blocks.
 
 ;;; Code:
-(require 'org)
 (require 'ob)
 
 (defgroup ob-redis nil
